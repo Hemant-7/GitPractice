@@ -14,6 +14,7 @@
 		C71E7422294C7781005B000C /* GitPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71E7421294C7781005B000C /* GitPracticeTests.swift */; };
 		C71E742C294C7781005B000C /* GitPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71E742B294C7781005B000C /* GitPracticeUITests.swift */; };
 		C71E742E294C7781005B000C /* GitPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71E742D294C7781005B000C /* GitPracticeUITestsLaunchTests.swift */; };
+		C71E743E294C77F7005B000C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71E743D294C77F7005B000C /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C71E7427294C7781005B000C /* GitPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71E742B294C7781005B000C /* GitPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeUITests.swift; sourceTree = "<group>"; };
 		C71E742D294C7781005B000C /* GitPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C71E743D294C77F7005B000C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		C71E740F294C777F005B000C /* GitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C71E743A294C77CD005B000C /* App */,
 				C71E7410294C777F005B000C /* GitPracticeApp.swift */,
 				C71E7412294C777F005B000C /* ContentView.swift */,
 				C71E7414294C7781005B000C /* Assets.xcassets */,
@@ -125,6 +128,30 @@
 				C71E742D294C7781005B000C /* GitPracticeUITestsLaunchTests.swift */,
 			);
 			path = GitPracticeUITests;
+			sourceTree = "<group>";
+		};
+		C71E743A294C77CD005B000C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C71E743B294C77DA005B000C /* Home */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C71E743B294C77DA005B000C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C71E743C294C77EA005B000C /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C71E743C294C77EA005B000C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C71E743D294C77F7005B000C /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71E743E294C77F7005B000C /* HomeView.swift in Sources */,
 				C71E7413294C777F005B000C /* ContentView.swift in Sources */,
 				C71E7411294C777F005B000C /* GitPracticeApp.swift in Sources */,
 			);
